@@ -12,6 +12,7 @@ export default function App() {
     const [faces,setFaces]=useState([])
     const [faceDetector,setFaceDetector]=useState("")
     const [maskDetector,setMaskDetector]=useState("")
+    const [verdict,setverdict]=useState("")
     useEffect(() => {
       async function loadModel(){
         console.log("[+] Application started")

@@ -9,7 +9,7 @@ import * as jpeg from 'jpeg-js'
 
 
 export default function App() {
-    const [imageLink,setImageLink] = useState("https://raw.githubusercontent.com/ohyicong/masksdetection/master/dataset/without_mask/142.jpg")
+    const [imageLink,setImageLink] = useState("https://www.apsnet.org/edcenter/disandpath/oomycete/pdlessons/PublishingImages/LateBlightFig3new.jpg")
     const [isEnabled,setIsEnabled] = useState(true)
     const [faces,setFaces]=useState([])
     const [faceDetector,setFaceDetector]=useState("")
